@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>CustomTLD</short-name>
+  <tag>
+    <name>ServiceTag</name>
+    <tag-class>com.custom.tag.ServiceTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+</taglib>

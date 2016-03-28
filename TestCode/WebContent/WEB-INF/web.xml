@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TestCode</display-name>
+  <welcome-file-list>
+   <!--  <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file> -->
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+   <servlet>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.custom.controllers.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>NewUserLoginController</display-name>
+    <servlet-name>NewUserLoginController</servlet-name>
+    <servlet-class>com.custom.controllers.NewUserLoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>AddNewBookController</display-name>
+    <servlet-name>AddNewBookController</servlet-name>
+    <servlet-class>com.custom.controllers.AddNewBookController</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>LookUpController</display-name>
+    <servlet-name>LookUpController</servlet-name>
+    <servlet-class>com.custom.controllers.LookUpController</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>AddNewMemberController</display-name>
+    <servlet-name>AddNewMemberController</servlet-name>
+    <servlet-class>com.custom.controllers.AddNewMemberController</servlet-class>
+  </servlet>
+   <servlet>
+    <display-name>LendBookController</display-name>
+    <servlet-name>LendBookController</servlet-name>
+    <servlet-class>com.custom.controllers.LendBookController</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>ReturnBookController</display-name>
+    <servlet-name>ReturnBookController</servlet-name>
+    <servlet-class>com.custom.controllers.ReturnBookController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewUserLoginController</servlet-name>
+    <url-pattern>/NewUserLoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddNewBookController</servlet-name>
+    <url-pattern>/AddNewBookController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>LookUpController</servlet-name>
+    <url-pattern>/LookUpController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>AddNewMemberController</servlet-name>
+    <url-pattern>/AddNewMemberController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>LendBookController</servlet-name>
+    <url-pattern>/LendBookController</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ReturnBookController</servlet-name>
+    <url-pattern>/ReturnBookController</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
